@@ -1,0 +1,39 @@
+
+body{
+  padding: 40px 10px;
+  background-color: #eee;
+}
+
+.listing-reg h1{
+  text-align: center;
+  margin: 0 0 2rem;
+}
+
+.listing-reg p{
+  text-align: center;
+  margin: 0 0 10rem;
+}
+
+.form{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form{
+  max-width: 200px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+
+.form input{
+  width: 100%;
+  margin: 0px 0 10px
+}
+.form .btn{
+  flex: 1 0 100%;
+}
+
+a {
+  color: #00B7FF;
+}

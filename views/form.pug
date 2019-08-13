@@ -1,0 +1,15 @@
+extends layout
+
+block content
+    form(action="/upload", enctype="multipart/form-data" ,method="POST" ,class="form")
+        .file-field.big
+            a.btn-floating.btn-lg.amber.darken-2.mt-0.float-left
+                i.fas.fa-cloud-upload-alt(aria-hidden='true')
+                input(type='file' name='files')
+        .file-path-wrapper
+
+        input(
+            type="submit"
+            value="Upload File"
+            class="btn btn-lg btn-primary btn-block"
+        )
