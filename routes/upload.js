@@ -1,4 +1,4 @@
-const express = require('express');
+/*const express = require('express');
 const router = express.Router();
 const multer= require('multer');
 const path= require('path');
@@ -21,14 +21,9 @@ const storage = multer.diskStorage({
 const upload = multer({ storage: storage }).single('files');
 
 /* POST function. */
-
+/*
 router.post('/upload', function (req, res) {
     console.log(req);
-    /*upload(req, res, function (err) {
-      if(err) {
-        return res.end("Error uploading file.");
-        console.log(req);
-      }*/
 
     // Persist the file
     //const filePath = req.file.path;
@@ -74,6 +69,7 @@ router.post('/upload', function (req, res) {
       success:true
     })
   }
-});*/
+});
 
 module.exports = router;
+*/
